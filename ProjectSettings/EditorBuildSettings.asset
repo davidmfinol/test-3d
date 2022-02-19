@@ -4,5 +4,34 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Onboarding Scene.unity
+    guid: 381e214a740fc0f41913f14f7a8efc40
+  - enabled: 1
+    path: Assets/Scenes/Connection Scene.unity
+    guid: b8e5010263c5048bfad847b968a33615
+  - enabled: 1
+    path: Assets/Scenes/Duel Room Scene.unity
+    guid: 991cb406cbe194363afe5db72f2768f0
+  - enabled: 1
+    path: Assets/Scenes/Speed Duel Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Nreal/Onboarding Scene.unity
+    guid: 55e3a1adbdbc34eaaba9a1fa6ea8234a
+  - enabled: 0
+    path: Assets/Scenes/Nreal/Connection Scene.unity
+    guid: fa187d9189ad04e56a74203b1335f1af
+  - enabled: 0
+    path: Assets/Scenes/Nreal/Duel Room Scene.unity
+    guid: 3b58bf221069443d09be8a633e6d2c04
+  - enabled: 0
+    path: Assets/Scenes/Nreal/Speed Duel Scene.unity
+    guid: cdd92058d14c94f4fbc99cb689a87cfd
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f11997d799f3c4a4199c168314b61545, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ff274b330427b5e46ba6b299b486b066, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 47c6a90606ab74dd683721b63c3cdb6c, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: c33ea6cb5986e48f6b46ea8ab2c3b5a2, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b1c36f46ce2c34ca682fd259a1324814, type: 2}
